@@ -22,7 +22,7 @@ function App() {
       let cm= height * 0.01 ;
       let bmi = (weight / ( cm * cm)  )
       setBmi(bmi.toFixed(1))
-
+     
       // Logic for message
 
       if (bmi < 18.5) {
